@@ -108,7 +108,7 @@ nav ul a:hover{
     max-width: 1120px;
     height: 600px;
     margin: 0 auto;
-    background-image: linear-gradient(rgba(7, 2, 17, 0.601)), url(../assets/images/Vectorrr.png);
+    background-image: linear-gradient(rgba(7, 2, 17, 0.601)), url('../assets/images/Vectorrr.png');
     margin-bottom: 100px;
     border-radius: 16px;
     display: flex;
@@ -243,7 +243,7 @@ nav ul a:hover{
 
 .discount-sec{
     max-width: 1120px;
-    margin: 0n auto;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -287,15 +287,13 @@ nav ul a:hover{
 .img-discount{
     display: flex;
     align-items: center;
-    background-image: url(../assets/images/Rectangle\ 2.png);
+    background-image: url('../assets/images/Rectangle\ 2.png');
     background-repeat: no-repeat;
     width: 1120px;
     background-position:bottom;
     border-radius: 8px;
     
-        
     
-
 }
 
 
@@ -340,7 +338,7 @@ input{
     background-color: #FFFFFF;
     color: #070211;
     border: none;
-    border-radius:10 0px ;
+    border-radius:100px ;
 }
 
 .subscribe-box {
@@ -376,7 +374,7 @@ input{
 footer{
     background-color: #070211;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 100px;
 }
 .footer-text{
@@ -410,5 +408,4 @@ footer{
     color: #FFFFFF;
     justify-content: space-evenly;
     margin-top: 100px;
-    ;
 }
